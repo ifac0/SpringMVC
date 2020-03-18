@@ -1,5 +1,6 @@
 package com.ifac0.workshop_jpa_hibernate.resource.exceptions;
 
+import com.ifac0.workshop_jpa_hibernate.services.exceptions.DatabaseException;
 import com.ifac0.workshop_jpa_hibernate.services.exceptions.ResourceNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
